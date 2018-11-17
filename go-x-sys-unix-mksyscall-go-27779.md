@@ -15,4 +15,3 @@ mksyscall.pl and $GOROOT/src/syscall/mksyscall_windows.go use totally different 
   * ~/dev/sys/unix $ ./mksyscall.pl -tags linux,amd64 syscall_linux.go syscall_linux_amd64.go > gen_1.go
   * ~/dev/sys/unix $ go run mksyscall.go -tags linux,amd64 syscall_linux.go syscall_linux_amd64.go > gen_2.go
   * ~/dev/sys/unix $ diff -y gen_1.go gen_2.go  #or use your favourite source code compare tool
-  <code>
