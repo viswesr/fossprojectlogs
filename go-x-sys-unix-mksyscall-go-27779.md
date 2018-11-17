@@ -5,9 +5,10 @@ Repo: https://github.com/viswesr/sys/blob/master/unix/mksyscall.go
 ### 17-Nov-2018
 
 * Sourced $GOROOT/src/syscall/mksyscall_windows.go and created mksyscall.go
-* Added support for all available tags in mksyscall.pl
+* Added support for all available tags in mksyscall.pl as flags
 * Added support for extraction of optional SYS_<NAME> parameter and detection of either //sys or //sysnb in ParseFiles()
-* Various modifications to template and helper functions to produce syscall closer to mksyscaall.pl
+* Various modifications to template and helper functions to produce syscall closer to mksyscaall.pl 
+* Need to implement usage of tags/flags
 * Testing:
   
   <code>
