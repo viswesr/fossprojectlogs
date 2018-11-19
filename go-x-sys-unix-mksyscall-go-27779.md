@@ -15,7 +15,7 @@ mksyscall.pl and $GOROOT/src/syscall/mksyscall_windows.go use totally different 
 - Support non-blocking sycalls generation
 - The overall time taken to execute *go run mksycall.go* is very slow compared to *mksyscall.pl*. Compiled mksyscall.go is around two times slower than mksyscall.pl
 
-### 17-Nov-2018
+### Upto 17-Nov-2018
 
 * Sourced $GOROOT/src/syscall/mksyscall_windows.go and created mksyscall.go
 * Added support for all available tags in mksyscall.pl as flags
