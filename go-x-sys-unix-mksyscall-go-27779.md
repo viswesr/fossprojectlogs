@@ -6,6 +6,13 @@ mksyscall.pl and $GOROOT/src/syscall/mksyscall_windows.go use totally different 
 
 ## LOG
 
+### 19-Nov-2018
+- Rewritten the code by closely (faithfully) following mksyscall.pl.
+- The syscall information extraction logic is retained from mksyscall_windows.go
+and generation logic closely follows mksyscall.pl.
+- mkall scripts are modified to create the mksyscall executable.
+- Running ./mkall.sh does not generate any git diff.
+
 ### 18-Nov-2018
 
 - Removed trace related tag and its implementaion
